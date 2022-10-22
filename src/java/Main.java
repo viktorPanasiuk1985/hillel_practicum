@@ -2,16 +2,16 @@ package java;
 
 public class Main {
     public static void main(String[] args){
-        String p = "asd";
-        isPalindrome(p)
+        String string = "asd";
+        isPalindrome(string)
     }
-    public static boolean isPalindrome(String p) {
-        char[] array = p.toCharArray();
+    public static boolean isPalindrome(String string) {
+        char[] array = string.toCharArray();
         StringBuilder reversed = new StringBuilder();
 
         for (int i = array.length - 1; i >= 0; i--) {
-            reversed.append(p.charAt(i));
+            reversed.append(string.charAt(i));
         }
-        return p.intern().equals(reversed.toString().intern());
+        return string.intern().equals(reversed.toString().intern());
     }
 }
