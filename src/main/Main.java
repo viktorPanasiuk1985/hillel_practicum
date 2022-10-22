@@ -1,4 +1,4 @@
-package java;
+package main;
 
 public class Main {
     public static String stringReverse(String string) {
@@ -8,7 +8,8 @@ public class Main {
             result +=  chars[i];
         }
         return result;
-    public stringAlgoritm(String text) {
+    }
+    public void stringAlgorithm(String text) {
         System.out.println("Hello");
     }
 }
