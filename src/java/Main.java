@@ -1,7 +1,6 @@
 package java;
 
 public class Main {
-
     public static String stringReverse(String string) {
         char[] chars = string.toCharArray();
         String result = "";
@@ -9,5 +8,7 @@ public class Main {
             result +=  chars[i];
         }
         return result;
+    public stringAlgoritm(String text) {
+        System.out.println("Hello");
     }
 }
