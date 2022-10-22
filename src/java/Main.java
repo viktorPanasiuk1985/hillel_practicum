@@ -11,4 +11,15 @@ public class Main {
     public stringAlgoritm(String text) {
         System.out.println("Hello");
     }
+    public String stringReverse(String str) {
+        char[] srcArr = str.toCharArray();
+        char[] trgArr = str.toCharArray();
+        int max = str.length() - 1;
+
+        for (int i = max; i >= 0; i--) {
+            trgArr[max - i] = srcArr[i];
+        }
+
+        return new String(trgArr);
+    }
 }
