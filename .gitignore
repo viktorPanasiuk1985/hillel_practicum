@@ -1,3 +1,2 @@
-#This files are ignored
-*.idea
-*.git
+.idea
+.git
